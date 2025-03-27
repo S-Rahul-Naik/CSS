@@ -1,0 +1,30 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: bisque;
+}
+/* 
+h3{
+    color: plum;
+} */
+h1,h3{
+    color: #B92B27;
+}
+#login{
+    background-color: #ffffff;
+}
+#signup{
+    background-color: #ffffff;
+    color: gold;
+}
+.follow{
+    color: green;
+}
+.ab{
+    color: green;
+    background-color: whitesmoke;
+}
+/* descendant selector */
+p a{
+    color: purple;
+    background-color: yellow;
+}
