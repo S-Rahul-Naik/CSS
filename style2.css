@@ -1,30 +1,80 @@
 * {
     font-family: 'Courier New', Courier, monospace;
     background-color: bisque;
+    /* universal selector */
 }
 /* 
 h3{
     color: plum;
 } */
 h1,h3{
+    /*  element selector */
     color: #B92B27;
 }
 #login{
+    /* id selector */
     background-color: #ffffff;
 }
 #signup{
+    /* id selector */
     background-color: #ffffff;
     color: gold;
 }
 .follow{
+    /* class selector */
     color: green;
 }
 .ab{
+        /* class selector */
+
     color: green;
-    background-color: whitesmoke;
+    background-color: cornflowerblue;
 }
 /* descendant selector */
 p a{
+    /* selects all anchor tags inside paragraphs */
     color: purple;
     background-color: yellow;
+} 
+p + h3 {
+    /* adjacent sibling combinator */
+    text-decoration: underline;
+}
+
+.ab + button { 
+    /* adjacent sibling combinator */
+    /* class ab levels having same ab level buttons selection */
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+div> input {
+    /* child combinator only single level selection */
+    background-color: darkgray;
+}
+
+
+/* attribute selector */
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: red;
+}
+input[type]{
+    background-color: ghostwhite;
+}
+
+/* pseudo class */
+
+/* 1. :hover */
+
+button:hover{
+    background-color: black;
+    color: white;
+}
+
+button:active{
+    background-color: hotpink;
+    color: black;
 }
