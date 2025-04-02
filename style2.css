@@ -1,6 +1,6 @@
 * {
     font-family: 'Courier New', Courier, monospace;
-    background-color: bisque;
+    /* background-color: bisque; */
     /* universal selector */
 }
 /* 
@@ -78,3 +78,24 @@ button:active{
     background-color: hotpink;
     color: black;
 }
+/* :checked */
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bold;
+}
+
+/* :nth-of-type */
+div:nth-of-type(n){
+    background-color: blanchedalmond;
+}
+
+/* ::first letter */
+h1::first-letter{
+    color: black;
+}
+
+/* ::first-line */
+/* ::selection */
+/* selector specificity */
+/* inline specificity */
+/* !important */
