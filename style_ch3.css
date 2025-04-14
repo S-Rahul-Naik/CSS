@@ -1,0 +1,32 @@
+div{
+    height: 150px;
+    width: 500px;
+    background-color: beige;
+    border-width: 5px;
+    border-left-color: black;
+    border-top-color: rgb(23, 231, 12);
+    border-style: dashed;
+    border-top-style: solid;
+    border-radius: 10px;
+    /* padding-top: 30px;
+    padding-left: 20px;
+    padding-bottom: 300px;
+    padding-right: 20px; */
+    padding: 20px;
+    margin: 100px;
+   
+    /* border: 5px solid black; */
+}
+h1{
+    border-color: green;
+    border-width: px;
+    border-style: solid;
+    margin: 0px;
+}
+button{
+    border: 2px solid gold;
+    border-radius: 25px;
+    padding-left:50px ;
+    padding-right: 50px;
+    background-color: skyblue;
+}
