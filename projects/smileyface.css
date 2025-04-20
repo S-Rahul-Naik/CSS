@@ -1,0 +1,50 @@
+.smiley{
+    position: absolute; 
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    width: 400px;
+    height: 400px;
+    border-radius: 3px;
+}
+
+.square{
+    width: 400px;
+    height: 400px;
+    background-color: blanchedalmond;
+
+}
+.face{
+    height: 400px;
+    width: 400px;
+    border-radius: 50%;
+    background-color: yellowgreen;
+}
+.mouth{
+    /* background-image: url(teeth2.jpeg);
+    background-size: cover; */
+    scale: 0.8 0.9;
+    height: 70px;
+    width: 200px;
+    border-radius: 0 0 50px 50px;
+    background-color: brown;
+    position:absolute;
+    top: 250px;
+    left: 100px;
+}
+.left-eye, .right-eye {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background-color: black;
+    display: inline-block;
+    position: absolute;
+    top: 120px;
+    left: 100px;
+
+}
+.right-eye{
+    left: 250px;
+}
